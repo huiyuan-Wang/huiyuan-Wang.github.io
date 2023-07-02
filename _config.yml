@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -85,7 +85,7 @@ author:
   bio              : "Postdoc researcher at Perelman School of Medicine, University of Pennsylvania"
   location         : "Philadelphia, PA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=tAmcOpgAAAAJ"
   email            : "huiyuan.wang@pku.edu.cn"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
