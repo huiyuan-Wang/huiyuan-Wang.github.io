@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Huiyuan Wang"
+title                    : "Huiyuan Wang (王惠远)"
 title_separator          : "-"
 name                     : &name "Huiyuan Wang"
 description              : &description "I am an incoming postdoc researcher at Perelman School of Medicine, University of Pennsylvania"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Huiyuan Wang (王惠远)"
+  name             : "Ph.D. in Statistics"
   avatar           : "profile.JPG"
   bio              : "Postdoc researcher at University of Pennsylvania"
   location         : "Philadelphia, PA"
