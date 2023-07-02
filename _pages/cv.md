@@ -14,11 +14,6 @@ Education
 * B.S. in Nankai University, 9/2014--6/2018 
 * Ph.D. in Peking University, 9/2018--7/2023
 * Postdoc in University of Pennsylvania, 8/2023-present
-  
-Hobbies
-======
-* Table tennis
-* Climbing
 
 Publications
 ======
