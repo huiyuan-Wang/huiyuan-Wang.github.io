@@ -1,6 +1,5 @@
 ---
-title: "Page not in menu"
-excerpt: "This is a page not in th emain menu"
+title: "Statistical Foundations of Machine Learning"
 author_profile: true
 ---
 
