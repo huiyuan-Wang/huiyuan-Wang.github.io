@@ -4,7 +4,7 @@ date: <br/>
 type: <br/>
 permalink: /teaching/StatisticalFoundationsofML
 venue: <br/>
-date: <br/>
+date: 2023-07-10
 location: <br/>
 collection: teaching
 ---
