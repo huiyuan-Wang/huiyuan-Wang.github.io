@@ -11,19 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Nankai University, 9/2014--6/2018
+* B.S. in Nankai University, 9/2014--6/2018 
 * Ph.D. in Peking University, 9/2018--7/2023
 * Postdoc in University of Pennsylvania, 8/2023-present
-
-Work experience
-======
-* 7/2021--7/2022: Research Intern
-  * Ant Group
-  * Supervisor: Qing Cui
-
-* 9/2022--4/2023: Research Intern
-  * Huawei Noah's Ark Lab
-  * Supervisor: Tianyang Hu, Aoxue Li
   
 Hobbies
 ======
@@ -51,3 +41,4 @@ Teaching
 Professional Service
 ======
 * Referee at Journal of Computational and Graphical Statistics, 2022
+
