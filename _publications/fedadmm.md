@@ -5,6 +5,7 @@ permalink: /publication/fedadmm
 excerpt: 'This paper introduces FedADMM, a new federated learning approach for parameter estimation considering heterogeneity among an exceedingly large number of devices in distribution, communication, and accessibility.'
 date: 2023-07-05
 venue: 'Manuscript'
-citation: 'Wang, H., Zhao, X.,Lin, W. (2023). &quot;Heterogeneous federated learning on arbitrary graphs.&quot; <i>Manuscript</i>.'
+citation: 'Wang, H., Zhao, X.,Lin, W. (2023). &quot;Heterogeneous federated learning on arbitrary graphs.&quot; <i>[Manuscript](http://huiyuan-Wang.github.io/files/FedADMM.pdf)</i>.'
 ---
 [Download paper here](http://huiyuan-Wang.github.io/files/FedADMM.pdf)
+paperurl
