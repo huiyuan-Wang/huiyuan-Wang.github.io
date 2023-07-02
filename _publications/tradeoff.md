@@ -1,6 +1,6 @@
 ---
 title: "Nonasymptotic theory for two-layer neural networks: Beyond the bias–variance trade-off"
-collection: manuscript
+collection: Manuscript
 permalink: /publication/tradeoff
 excerpt: 'This paper gives a unified statistical guarantee of both underparametrized and overparametrized two-layer ReLU networks, and further reproduce the double descent phenonmenon.'
 date: 2023-7-10
