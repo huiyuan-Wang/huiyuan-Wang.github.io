@@ -10,6 +10,6 @@ citation: 'Tang, C., Wang, H., Li, X., Cui, Q., Zhang, Y. L., Zhu, F., ... & Jia
 ---
 This paper is about estimating heterogeneous treatment effects in the presence of unmeasured confounding.
 
-[Download paper here]([[http://huiyuan-Wang.github.io/files/NeurIPS-2022-debiased-causal-tree-heterogeneous-treatment-effects-estimation-with-unmeasured-confounding-Paper-Conference.pdf.pdf]
+[Download paper here]([http://huiyuan-Wang.github.io/files/NeurIPS-2022-debiased-causal-tree-heterogeneous-treatment-effects-estimation-with-unmeasured-confounding-Paper-Conference.pdf.pdf])
 
 Recommended citation: Tang, C., Wang, H., Li, X., Cui, Q., Zhang, Y. L., Zhu, F., ... & Jiang, L. (2022). Debiased causal tree: heterogeneous treatment effects estimation with unmeasured confounding. <i>Advances in Neural Information Processing Systems</i>, 35, 5628-5640.
