@@ -1,6 +1,11 @@
 ---
 title: "Statistical Foundations of Machine Learning"
 date: <br/>
+type: <br/>
+permalink: /teaching/StatisticalFoundationsofML
+venue: <br/>
+date: <br/>
+location: <br/>
 collection: teaching
 ---
 
