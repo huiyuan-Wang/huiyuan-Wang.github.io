@@ -11,21 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Nankai University, 9/2014--6/2018
+* Ph.D in Peking University, 9/2018--7/2023
+* Postdoc in University of Pennsylvania, 8/2023-present
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 7/2021--7/2022: Research Intern
+  * Ant Group
+  * Supervisor: Qing Cui
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 9/2022--4/2023: Research Intern
+  * Huawei Noah's Ark Lab
+  * Supervisor: Tianyang Hu, Aoxue Li
   
 Skills
 ======
