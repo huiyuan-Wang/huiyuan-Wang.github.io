@@ -16,4 +16,6 @@ I have three main research interests: (i) statistical foundations of machine lea
 
 Email: huiyuan(dot)wang(at)pku(dot)edu(dot)cn
 
+Feel free to contact me if you are interested to learn more about my research!
+
 
