@@ -25,9 +25,10 @@ Work experience
   * Huawei Noah's Ark Lab
   * Supervisor: Tianyang Hu, Aoxue Li
   
-Skills
+Hobbies
 ======
 * Table tennis
+* Climbing
 
 Publications
 ======
