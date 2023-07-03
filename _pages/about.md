@@ -14,7 +14,7 @@ Recently, I successfully defended my Ph.D. in Statistics from the Peking Univers
 My résumé can be [downloaded here](https://huiyuan-wang.github.io/files/Resume_hy.pdf).
 I have three main research interests: (i) statistical foundations of machine learning, with emphases on overparametrization, self-supervision, and interpretation, (ii) integration of multiple potentially heterogeneous data sources, and (iii) estimation and inference for graphical models of complex data. 
 
-Feel free to contact me if you are interested to learn more about my research! [Email](mailto:huiyuan.wang@pku.edu.cn): huiyuan(dot)wang(at)pku(dot)edu(dot)cn
+Feel free to contact me if you are interested in learning more about my research! [Email](mailto:huiyuan.wang@pku.edu.cn): huiyuan(dot)wang(at)pku(dot)edu(dot)cn
 
 
 
