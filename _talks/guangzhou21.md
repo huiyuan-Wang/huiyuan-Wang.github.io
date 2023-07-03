@@ -1,5 +1,5 @@
 ---
-title: "CARE:largeprecisionmatrixestimationforcompositionaldata"
+title: "CARE: Large precision matrix estimation for compositional data"
 collection: talks
 type: "talk"
 permalink: /talks/guangzhou21
