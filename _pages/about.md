@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my personal website! I am an incoming postdoctoral researcher at the Perelman School of Medicine, University of Pennsylvania. I am advised by Professor [Yong Chen](https://penncil.med.upenn.edu/about-pi/).
+Welcome to my personal website! I am a postdoctoral researcher at the Perelman School of Medicine, University of Pennsylvania. I am advised by Professor [Yong Chen](https://penncil.med.upenn.edu/about-pi/).
 
 I successfully defended my Ph.D. in Statistics from the Peking University in May, 2023 under the supervision of Professor [Wei Lin](https://www.math.pku.edu.cn/teachers/linw/).
 
