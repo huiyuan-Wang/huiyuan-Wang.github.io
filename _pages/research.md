@@ -111,7 +111,7 @@ author_profile: true
       </li>
       <li>
         <div class="research-paper__body"><a href="https://doi.org/10.1214/24-AOS2468">A Statistical Framework of Watermarks for Large Language Models <span aria-hidden="true">&nearr;</span></a><p>Connects pivots, false-negative efficiency, and minimax optimization to derive powerful and principled watermark detection rules.</p></div>
-        <small>Annals of Statistics, 2025</small>
+        <small>AoS, 2025</small>
       </li>
       <li>
         <div class="research-paper__body"><a href="https://proceedings.mlr.press/v235/zhao24n.html">A Statistical Theory of Regularization-Based Continual Learning <span aria-hidden="true">&nearr;</span></a><p>Characterizes the forward&ndash;backward transfer trade-off and derives regularization schemes that match the order of an all-data oracle.</p></div>

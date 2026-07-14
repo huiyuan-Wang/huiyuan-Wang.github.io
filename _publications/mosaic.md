@@ -4,7 +4,7 @@ collection: publications
 status: published
 field: distributed
 permalink: /publication/mosaic
-date: 2026-01-01
+date: 2026-07-01
 venue: "JASA"
 authors: 'Yong Chen, Yiwen Lu, Jingmei Qiu, <strong>Huiyuan Wang</strong>, and Yudong Wang <span class="publication-author-note">(authors listed in alphabetical order)</span>'
 publication: '<span class="publication-badge">Discussion Paper</span> <i>Journal of the American Statistical Association: Applications and Case Studies</i>, 1&ndash;26.'

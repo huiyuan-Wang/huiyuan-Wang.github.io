@@ -7,5 +7,10 @@
     {% endif %}
   </div>
   <div class="publication-item__authors">{{ post.authors }}</div>
-  <div class="publication-item__venue">{{ post.publication }}</div>
+  <div class="publication-item__venue">
+    {% if post.review_status %}
+      <span class="publication-badge publication-badge--review">{{ post.review_status }}</span>
+    {% endif %}
+    {{ post.publication }}{% if post.year_label %} <span class="publication-status-year">{{ post.year_label }}</span>{% endif %}
+  </div>
 </li>
