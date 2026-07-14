@@ -1,16 +1,30 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div class="talks-list">
+  <div class="talks-list__intro">
+    <span>Selected conference talks and presentations.</span>
+    {% if site.talkmap_link == true %}
+      <a class="profile-link" href="/talkmap.html">View talk map <span aria-hidden="true">&nearr;</span></a>
+    {% endif %}
+  </div>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  {% assign sorted_talks = site.talks | sort: "date" | reverse %}
+  {% assign talks_by_year = sorted_talks | group_by_exp: "talk", "talk.date | date: '%Y'" %}
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  {% for year in talks_by_year %}
+    <section class="talk-year-group" aria-labelledby="talk-year-{{ year.name }}">
+      <h2 id="talk-year-{{ year.name }}" class="talk-year">{{ year.name }}</h2>
+      <ol class="talk-year__items">
+        {% assign year_talks = year.items | sort: "order" %}
+        {% for post in year_talks %}
+          {% include talk-compact.html %}
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+</div>

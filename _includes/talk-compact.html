@@ -1,0 +1,15 @@
+<li class="talk-item">
+  <div class="talk-item__header">
+    <h3 class="talk-item__title">{{ post.title }}</h3>
+    {% unless post.year_only %}<time class="talk-item__date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }}</time>{% endunless %}
+  </div>
+  <div class="talk-item__meta">
+    {% if post.session %}<span class="talk-item__badge">{{ post.session }}</span>{% endif %}
+    {% if post.venue %}<span>{{ post.venue | strip }}</span>{% endif %}
+    {% if post.venue and post.location %}<span aria-hidden="true">&middot;</span>{% endif %}
+    {% if post.location %}<span>{{ post.location }}</span>{% endif %}
+  </div>
+  {% if post.content %}
+    <div class="talk-item__description">{{ post.content | markdownify }}</div>
+  {% endif %}
+</li>

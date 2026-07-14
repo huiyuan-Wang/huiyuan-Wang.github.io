@@ -1,20 +1,51 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Huiyuan Wang"
+excerpt: "Huiyuan Wang"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my personal website! I am a postdoctoral researcher at the Perelman School of Medicine, University of Pennsylvania. I am advised by Professor [Yong Chen](https://penncil.med.upenn.edu/about-pi/).
 
-I successfully defended my Ph.D. in Statistics from the Peking University in May, 2023 under the supervision of Professor [Wei Lin](https://www.math.pku.edu.cn/teachers/linw/).
+<div class="home-page">
+  <section class="home-intro" aria-labelledby="home-intro-title">
+    <p class="home-intro__eyebrow" id="home-intro-title">Research Associate in Biostatistics &middot; University of Pennsylvania</p>
+    <p class="home-intro__lead">I develop statistical methods for reliable learning and inference when data are biased, imperfect, distributed, or structurally complex.</p>
+    <p>My research spans causal inference and real-world evidence, distributed inference, statistical foundations for adaptive and verifiable AI, and learning from structured data. I am also interested in active learning, retrieval-augmented systems, benchmarking and evaluation of large language models, continual learning, and shortcut-resistant learning.</p>
+    <p>I received my Ph.D. in Statistics from Peking University, advised by Professor <a href="https://www.math.pku.edu.cn/teachers/linw/">Wei Lin</a>, and my B.S. in Statistics from Nankai University. At Penn, I work with Professor <a href="https://penncil.med.upenn.edu/about-pi/">Yong Chen</a>.</p>
 
-My résumé can be [downloaded here](https://huiyuan-wang.github.io/files/cv_huiyuan2412.pdf).
-I have three main research interests: (i) statistical foundations of machine learning, with emphases on overparametrization, self-supervision, and interpretation, (ii) integration of multiple potentially heterogeneous data sources, and (iii) estimation and inference for graphical models of complex data. 
+    <nav class="home-links" aria-label="Profile links">
+      <a href="/research/">Research <span aria-hidden="true">&rarr;</span></a>
+      <a href="/publications/">Publications <span aria-hidden="true">&rarr;</span></a>
+      <a href="/files/cv_huiyuan.pdf">CV (PDF) <span aria-hidden="true">&nearr;</span></a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">&nearr;</span></a>
+      <a href="mailto:huiyuanw@upenn.edu">Email <span aria-hidden="true">&nearr;</span></a>
+    </nav>
+  </section>
 
-Feel free to contact me if you are interested in learning more about my research! [Email](mailto:Huiyuan.Wang@Pennmedicine.upenn.edu): huiyuan(dot)wang(at)pennmedicine(dot)upenn(dot)edu
-
-
-
+  <section class="home-news" aria-labelledby="news-title">
+    <div class="home-section-heading">
+      <h2 id="news-title">News</h2>
+      <span>Selected updates</span>
+    </div>
+    <ol class="home-news__list">
+      {% for item in site.data.news %}
+        <li class="home-news__item">
+          <time>{{ item.date }}</time>
+          <div>
+            <div class="home-news__headline">
+              {% if item.label %}<span class="home-news__tag">{{ item.label }}</span>{% endif %}
+              {% if item.url %}
+                <a href="{{ item.url }}">{{ item.title }} <span aria-hidden="true">&nearr;</span></a>
+              {% else %}
+                <strong>{{ item.title }}</strong>
+              {% endif %}
+            </div>
+            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+</div>
