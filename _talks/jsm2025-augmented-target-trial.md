@@ -4,8 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/jsm2025-augmented-target-trial
 venue: "Joint Statistical Meetings"
-date: 2025-01-01
-year_only: true
+date: 2025-08-01
 order: 2
 location: "Nashville, Tennessee, USA"
 ---

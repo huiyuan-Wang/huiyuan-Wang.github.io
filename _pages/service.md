@@ -24,7 +24,7 @@ author_profile: true
     <h2 id="community-service" class="service-group__title">Community</h2>
     <ul class="service-group__items">
       <li class="service-item"><div><strong>ICSA Best Student Paper Award</strong><span>Reviewer</span></div><time>2025</time></li>
-      <li class="service-item"><div><strong>ICSA Applied Statistics Symposium</strong><span>Invited-session organizer</span></div><time>2025</time></li>
+      <li class="service-item"><div><strong>ICSA Applied Statistics Symposium</strong><span>Invited session organizer</span></div><time>2025</time></li>
     </ul>
   </section>
 </div>
