@@ -13,13 +13,12 @@ redirect_from:
     <p class="home-intro__eyebrow" id="home-intro-title">Research Associate in Biostatistics &middot; University of Pennsylvania</p>
     <p class="home-intro__lead">I develop statistical methods for reliable learning and inference when data are biased, imperfect, distributed, or structurally complex.</p>
     <p>My research spans causal inference and real-world evidence, distributed inference, statistical foundations for adaptive and verifiable AI, and learning from structured data. I am also interested in active learning, retrieval-augmented systems, benchmarking and evaluation of large language models, continual learning, and shortcut-resistant learning.</p>
-    <p>I received my Ph.D. in Statistics from Peking University, advised by Professor <a href="https://www.math.pku.edu.cn/teachers/linw/">Wei Lin</a>, and my B.S. in Statistics from Nankai University. At Penn, I work with Professor <a href="https://penncil.med.upenn.edu/about-pi/">Yong Chen</a>.</p>
-
     <nav class="home-links" aria-label="Profile links">
       <a href="/research/">Research <span aria-hidden="true">&rarr;</span></a>
       <a href="/publications/">Publications <span aria-hidden="true">&rarr;</span></a>
       <a href="/files/cv_huiyuan.pdf">CV (PDF) <span aria-hidden="true">&nearr;</span></a>
       <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">&nearr;</span></a>
+      <a href="https://www.mathgenealogy.org/id.php?id=326702">Mathematics Genealogy <span aria-hidden="true">&nearr;</span></a>
       <a href="mailto:huiyuanw@upenn.edu">Email <span aria-hidden="true">&nearr;</span></a>
     </nav>
   </section>
