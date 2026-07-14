@@ -360,6 +360,17 @@
   border-radius: 3px;
 }
 
+.publication-badge--review {
+  color: #7a5511;
+  background: #faf3e5;
+}
+
+.publication-status-year {
+  color: $gray;
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
 .talk-item {
   margin: 0 0 1.35rem;
   padding: 0 0 1.25rem;
