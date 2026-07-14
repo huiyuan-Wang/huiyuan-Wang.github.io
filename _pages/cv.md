@@ -35,5 +35,11 @@ Teaching
   
 Professional Service
 ======
-* Referee at Journal of Computational and Graphical Statistics, 2022
-
+* Reviewer for ICLR, 2025
+* Reviewer for NeurIPS, 2025, 2026
+* Reviewer for ICML, 2026
+* Reviewer for the Best Student Paper Award, International Chinese Statistical Association, 2025
+* Organizer of an invited session for the International Chinese Statistical Association, 2025
+* Reviewer for JASA, 2023, 2025, 2026
+* Reviewer for ALT, 2023--2025
+* Reviewer for JCGS, 2022

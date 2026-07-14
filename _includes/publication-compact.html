@@ -1,0 +1,11 @@
+<li class="publication-item">
+  <div class="publication-item__title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+  </div>
+  <div class="publication-item__authors">{{ post.authors }}</div>
+  <div class="publication-item__venue">{{ post.publication }}</div>
+</li>
