@@ -37,7 +37,7 @@ author_profile: true
     <ul class="research-paper-list">
       <li>
         <div class="research-paper__body"><a href="/files/distributional-diagnosis-calibration-negative-controls.pdf">Distributional Diagnosis and Calibration with Negative Controls for Outcome-wide Real-world Evidence <span aria-hidden="true">&nearr;</span></a><p>Uses panels of negative control outcomes to diagnose residual bias and calibrate uncertainty across outcome-wide analyses, while operating on summary statistics and wrapping around common causal estimators.</p></div>
-        <small>Manuscript, 2026+ &middot; <a href="/files/distributional-diagnosis-calibration-negative-controls.bib">BibTeX</a></small>
+        <small>Manuscript, 2026+</small>
       </li>
       <li>
         <div class="research-paper__body"><a href="https://arxiv.org/abs/2512.21826">Surrogate-Powered Inference: Regularization and Adaptivity <span aria-hidden="true">&nearr;</span></a><p>Combines validated labels and imperfect surrogates, using regularization and adaptive multiwave labeling to improve efficiency without sacrificing validity.</p></div>
@@ -103,7 +103,7 @@ author_profile: true
     </div>
     <p class="research-area__question">How can modern learning systems remain understandable and verifiable as models, tasks, and their outputs evolve?</p>
     <div class="research-area__description">
-      <p>I use non-asymptotic theory and optimal testing to study the full lifecycle of modern learning systems. On the learning side, I investigate why overparameterized neural networks generalize and how continual-learning algorithms balance forward transfer against retention of earlier knowledge. On the verification side, our team formulates LLM watermarking as a statistical testing problem and derives detection rules with explicit efficiency and optimality guarantees.</p>
+      <p>I am interested in using non-asymptotic theory and optimal testing to study the full lifecycle of modern learning systems. On the learning side, I investigate why overparameterized neural networks generalize and how continual-learning algorithms balance forward transfer against retention of earlier knowledge. On the verification side, our team formulates LLM watermarking as a statistical testing problem and derives detection rules with explicit efficiency and optimality guarantees.</p>
       <p>A recurring theme is that familiar methods can fail in modern regimes: classical bias&ndash;variance intuition can miss the benefit of overparameterization, standard regularizers can be suboptimal across tasks, and additive watermark detectors lose robustness when humans edit generated text. The theory reveals these failure mechanisms and points to better procedures.</p>
     </div>
     <div class="research-area__outlook"><strong>Current directions</strong><span>Active and data-efficient learning; retrieval-augmented and knowledge-grounded systems; statistically principled benchmarking and evaluation of large language models; continual learning and model adaptation; and learning-system design that avoids shortcut solutions.</span></div>
