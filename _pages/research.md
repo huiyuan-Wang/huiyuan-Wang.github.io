@@ -36,8 +36,12 @@ author_profile: true
     <h3>Selected work</h3>
     <ul class="research-paper-list">
       <li>
+        <div class="research-paper__body"><a href="https://arxiv.org/abs/2512.21826">Surrogate-Powered Inference: Regularization and Adaptivity <span aria-hidden="true">&nearr;</span></a><p>Combines validated labels and imperfect surrogates, using regularization and adaptive multiwave labeling to improve efficiency without sacrificing validity.</p></div>
+        <small>Preprint, 2026+</small>
+      </li>
+      <li>
         <div class="research-paper__body"><a href="https://www.nature.com/articles/s41746-025-01821-w">Negative-Control-Calibrated Difference-in-Difference Analyses <span aria-hidden="true">&nearr;</span></a><p>Uses pre- and post-intervention negative controls to detect and adjust for time-varying unmeasured confounding, while remaining robust to partially unreliable controls.</p></div>
-        <small>NPJ Digital Medicine, 2025</small>
+        <small>npj Digital Medicine, 2025</small>
       </li>
       <li>
         <div class="research-paper__body"><a href="https://proceedings.mlr.press/v202/tang23j.html">Difference-in-Differences Meets Tree-Based Methods <span aria-hidden="true">&nearr;</span></a><p>Learns heterogeneous treatment effects with a splitting rule that balances observed-data fit against violations of conditional parallel trends.</p></div>
@@ -46,10 +50,6 @@ author_profile: true
       <li>
         <div class="research-paper__body"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/2526d439030a3af95fc647dd20e9d049-Abstract-Conference.html">Debiased Causal Tree <span aria-hidden="true">&nearr;</span></a><p>Uses historical controls and confounding entropy to recover heterogeneous causal effects in the presence of unmeasured confounding.</p></div>
         <small>NeurIPS, 2022</small>
-      </li>
-      <li>
-        <div class="research-paper__body"><a href="https://arxiv.org/abs/2512.21826">Surrogate-Powered Inference: Regularization and Adaptivity <span aria-hidden="true">&nearr;</span></a><p>Combines validated labels and imperfect surrogates, using regularization and adaptive multiwave labeling to improve efficiency without sacrificing validity.</p></div>
-        <small>Preprint, 2025</small>
       </li>
     </ul>
   </section>
@@ -75,12 +75,12 @@ author_profile: true
         <small>JASA, 2026</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://arxiv.org/abs/2508.16902">Efficient Semiparametric Inference for Distributed Data with Blockwise Missingness <span aria-hidden="true">&nearr;</span></a><p>Develops one-round, do-no-harm augmentation that can attain the semiparametric efficiency bound while scaling to many external sites.</p></div>
-        <small>Preprint, 2025</small>
+        <div class="research-paper__body"><a href="https://arxiv.org/abs/2509.23664">Collaborative Indirect Treatment Comparisons with Multiple Distributed Single-Arm Trials <span aria-hidden="true">&nearr;</span></a><p>Provides doubly robust, pooled-equivalent treatment comparisons across isolated single-arm trials using only two communication rounds.</p></div>
+        <small>Preprint, 2026+</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://arxiv.org/abs/2509.23664">Collaborative Indirect Treatment Comparisons with Multiple Distributed Single-Arm Trials <span aria-hidden="true">&nearr;</span></a><p>Provides doubly robust, pooled-equivalent treatment comparisons across isolated single-arm trials using only two communication rounds.</p></div>
-        <small>Preprint, 2025</small>
+        <div class="research-paper__body"><a href="https://arxiv.org/abs/2508.16902">Efficient Semiparametric Inference for Distributed Data with Blockwise Missingness <span aria-hidden="true">&nearr;</span></a><p>Develops one-round, do-no-harm augmentation that can attain the semiparametric efficiency bound while scaling to many external sites.</p></div>
+        <small>Preprint, 2026+</small>
       </li>
       <li>
         <div class="research-paper__body"><a href="https://proceedings.mlr.press/v195/zhao23b.html">The Aggregation&ndash;Heterogeneity Trade-off in Federated Learning <span aria-hidden="true">&nearr;</span></a><p>Shows why more data can be harmful under heterogeneity and characterizes when selective, neighbor-based aggregation is minimax optimal.</p></div>
@@ -114,12 +114,12 @@ author_profile: true
         <small>AoS, 2025</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://proceedings.mlr.press/v235/zhao24n.html">A Statistical Theory of Regularization-Based Continual Learning <span aria-hidden="true">&nearr;</span></a><p>Characterizes the forward&ndash;backward transfer trade-off and derives regularization schemes that match the order of an all-data oracle.</p></div>
-        <small>ICML, 2024</small>
+        <div class="research-paper__body"><a href="https://arxiv.org/abs/2106.04795">Nonasymptotic Theory for Two-Layer Neural Networks <span aria-hidden="true">&nearr;</span></a><p>Uses a ridge&ndash;lasso duality to explain double descent and when overparameterized networks can outperform their underparameterized counterparts.</p></div>
+        <small>Preprint, 2025+</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://arxiv.org/abs/2106.04795">Nonasymptotic Theory for Two-Layer Neural Networks <span aria-hidden="true">&nearr;</span></a><p>Uses a ridge&ndash;lasso duality to explain double descent and when overparameterized networks can outperform their underparameterized counterparts.</p></div>
-        <small>Preprint</small>
+        <div class="research-paper__body"><a href="https://proceedings.mlr.press/v235/zhao24n.html">A Statistical Theory of Regularization-Based Continual Learning <span aria-hidden="true">&nearr;</span></a><p>Characterizes the forward&ndash;backward transfer trade-off and derives regularization schemes that match the order of an all-data oracle.</p></div>
+        <small>ICML, 2024</small>
       </li>
     </ul>
   </section>
@@ -145,12 +145,12 @@ author_profile: true
         <small>JASA, 2025</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://openreview.net/forum?id=JsPvL6ExK8">Prometheus: Out-of-Distribution Fluid Dynamics Modeling with Disentangled Graph ODE <span aria-hidden="true">&nearr;</span></a><p>Separates invariant physical dynamics from environment-specific factors to improve out-of-distribution modeling of complex fluid systems.</p></div>
-        <small>ICML, 2024</small>
+        <div class="research-paper__body"><a href="https://arxiv.org/abs/2110.11562">Temporal Point Process Graphical Models <span aria-hidden="true">&nearr;</span></a><p>Recovers nonlinear temporal dependence structures from high-dimensional, asynchronous streams of events.</p></div>
+        <small>Preprint, 2025+</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="https://arxiv.org/abs/2110.11562">Temporal Point Process Graphical Models <span aria-hidden="true">&nearr;</span></a><p>Recovers nonlinear temporal dependence structures from high-dimensional, asynchronous streams of events.</p></div>
-        <small>Preprint</small>
+        <div class="research-paper__body"><a href="https://openreview.net/forum?id=JsPvL6ExK8">Prometheus: Out-of-Distribution Fluid Dynamics Modeling with Disentangled Graph ODE <span aria-hidden="true">&nearr;</span></a><p>Separates invariant physical dynamics from environment-specific factors to improve out-of-distribution modeling of complex fluid systems.</p></div>
+        <small>ICML, 2024</small>
       </li>
     </ul>
   </section>
