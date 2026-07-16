@@ -2,3 +2,6 @@
 .sass-cache/
 _site/
 vendor/
+
+# The CV source is private and must never be committed or published.
+/cv_huiyuan.tex
