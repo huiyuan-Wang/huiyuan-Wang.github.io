@@ -6,35 +6,30 @@ author_profile: true
 ---
 
 <div class="research-page">
-  <div class="research-intro">
-    <p class="research-intro__eyebrow">Statistics under modern information constraints</p>
-    <p class="research-intro__lead">Modern learning rarely has access to clean, fully labeled, centrally pooled data. Confounders are hidden, labels are imperfect, datasets are fragmented across institutions, model outputs are modified by humans, and observations often obey complex structural constraints.</p>
-    <p>I develop statistical principles for recovering reliable information under these conditions. Across causal inference, distributed learning, and modern AI, I ask what remains identifiable, what information must be validated or communicated, and which procedures are statistically optimal.</p>
-    <p>My broader interests center on how learning systems acquire, retrieve, evaluate, and retain information. This includes active learning for data-efficient supervision, retrieval-augmented methods for grounding models in external evidence, statistically principled benchmarking and evaluation of large language models, continual learning under evolving tasks, and learning-system design that avoids shortcut solutions and improves out-of-distribution reliability.</p>
-  </div>
-
-  <div class="research-questions" aria-label="Questions guiding my research">
-    <div><strong>What remains identifiable?</strong><span>Find the signal that survives hidden bias, indirect measurement, and structural constraints.</span></div>
-    <div><strong>What information should move?</strong><span>Design summaries that preserve inferential value when raw data cannot be pooled.</span></div>
-    <div><strong>What remains reliable?</strong><span>Build guarantees that hold as models, environments, and human behavior change.</span></div>
-  </div>
-
-  <section class="research-area" aria-labelledby="imperfect-evidence">
-    <div class="research-area__heading">
-      <span class="research-area__index" aria-hidden="true">01</span>
-      <div>
-        <h2 id="imperfect-evidence">Reliable Inference from Imperfect Evidence</h2>
-        <p class="research-area__tagline">Causal inference, real-world evidence, and surrogate-powered inference</p>
-      </div>
-    </div>
+  <div class="research-topic-grid">
+    <details class="research-topic" name="research-topics">
+      <summary class="research-topic__summary">
+        <h2 id="imperfect-evidence">
+          <span class="research-topic__icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><path d="M10 12v24M38 12v24M10 16h4M10 32h4M34 16h4M34 32h4M16 24h16"></path><circle cx="24" cy="24" r="5"></circle><path d="M24 19v10M19 24h10"></path></svg></span>
+          <span class="research-topic__copy"><span class="research-topic__index">01</span><span class="research-topic__title">Reliable Inference from Imperfect Evidence</span><span class="research-topic__tagline">Causal inference, real-world evidence, and surrogate-powered inference</span></span>
+          <span class="research-topic__toggle" aria-hidden="true"></span>
+        </h2>
+      </summary>
+      <section class="research-area" aria-labelledby="imperfect-evidence-detail">
+    <button class="research-topic__back" type="button"><span aria-hidden="true">&larr;</span> Back to research areas</button>
+    <header class="research-topic__detail-heading"><span aria-hidden="true">01</span><div><h2 id="imperfect-evidence-detail">Reliable Inference from Imperfect Evidence</h2><p>Causal inference, real-world evidence, and surrogate-powered inference</p></div></header>
     <p class="research-area__question">Can reliable conclusions be recovered when the variables we need are hidden and the labels we use may be wrong?</p>
     <div class="research-area__description">
-      <p>My work turns auxiliary information into calibrated evidence. I use historical and negative controls to expose residual confounding, and flexible tree-based methods to learn heterogeneous treatment effects when standard identifying assumptions may fail. More recently, I have extended this perspective to surrogate-powered inference, combining abundant but noisy labels with limited high-quality validation data through regularization and adaptive labeling.</p>
+      <p>My work turns auxiliary information into calibrated evidence. I use historical and negative controls to expose residual confounding, and flexible machine-learning methods to learn heterogeneous treatment effects and identify sharp sensitivity bounds when standard identifying assumptions may fail. More recently, I have extended this perspective to combining abundant but noisy auxiliary information with limited high-quality validation data.</p>
       <p>The unifying goal is to make hidden bias and imperfect labels empirically diagnosable, correctable, and useful for inference&mdash;rather than simply assuming them away.</p>
     </div>
     <div class="research-area__outlook"><strong>Current directions</strong><span>Foundation-model outputs as surrogates; multimodal negative controls; adaptive validation; and principled integration of randomized trials with real-world evidence.</span></div>
     <h3>Selected work</h3>
     <ul class="research-paper-list">
+      <li>
+        <div class="research-paper__body"><a href="/publications/#anchor">ANCHOR: Double Machine Learning for NCO-Calibrated Adaptive Marginal Sensitivity Bounds <span aria-hidden="true">&nearr;</span></a><p>Uses multiple negative control outcomes to calibrate adaptive sensitivity bounds for the average treatment effect on the treated, with double machine learning inference for a smooth conservative approximation.</p></div>
+        <small>AOAS &middot; Accepted, 2026</small>
+      </li>
       <li>
         <div class="research-paper__body"><a href="/files/distributional-diagnosis-calibration-negative-controls.pdf">Distributional Diagnosis and Calibration with Negative Controls for Outcome-wide Real-world Evidence <span aria-hidden="true">&nearr;</span></a><p>Uses panels of negative control outcomes to diagnose residual bias and calibrate uncertainty across outcome-wide analyses, while operating on summary statistics and wrapping around common causal estimators.</p></div>
         <small>Manuscript, 2026+</small>
@@ -56,16 +51,20 @@ author_profile: true
         <small>NeurIPS, 2022</small>
       </li>
     </ul>
-  </section>
+      </section>
+    </details>
 
-  <section class="research-area" aria-labelledby="collaborative-inference">
-    <div class="research-area__heading">
-      <span class="research-area__index" aria-hidden="true">02</span>
-      <div>
-        <h2 id="collaborative-inference">Collaborative Inference without Data Pooling</h2>
-        <p class="research-area__tagline">Distributed inference, heterogeneous populations, and reusable statistical summaries</p>
-      </div>
-    </div>
+    <details class="research-topic" name="research-topics">
+      <summary class="research-topic__summary">
+        <h2 id="collaborative-inference">
+          <span class="research-topic__icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><circle cx="9" cy="13" r="4"></circle><circle cx="9" cy="35" r="4"></circle><circle cx="39" cy="13" r="4"></circle><circle cx="39" cy="35" r="4"></circle><rect x="20" y="20" width="8" height="8" rx="2"></rect><path d="M13 15l7 6M13 33l7-6M35 15l-7 6M35 33l-7-6"></path></svg></span>
+          <span class="research-topic__copy"><span class="research-topic__index">02</span><span class="research-topic__title">Collaborative Inference without Data Pooling</span><span class="research-topic__tagline">Distributed inference, heterogeneous populations, and reusable statistical summaries</span></span>
+          <span class="research-topic__toggle" aria-hidden="true"></span>
+        </h2>
+      </summary>
+      <section class="research-area" aria-labelledby="collaborative-inference-detail">
+    <button class="research-topic__back" type="button"><span aria-hidden="true">&larr;</span> Back to research areas</button>
+    <header class="research-topic__detail-heading"><span aria-hidden="true">02</span><div><h2 id="collaborative-inference-detail">Collaborative Inference without Data Pooling</h2><p>Distributed inference, heterogeneous populations, and reusable statistical summaries</p></div></header>
     <p class="research-area__question">When data cannot move, what information should?</p>
     <div class="research-area__description">
       <p>I study how to retain the inferential value of pooled data when observations are distributed across institutions, heterogeneous across populations, or missing in incompatible blocks. My work first showed that more aggregation can hurt: the gain from larger samples must be balanced against bias from heterogeneity, and communication structure determines which sites should borrow from one another.</p>
@@ -91,16 +90,20 @@ author_profile: true
         <small>COLT, 2023</small>
       </li>
     </ul>
-  </section>
+      </section>
+    </details>
 
-  <section class="research-area" aria-labelledby="adaptive-verifiable-ai">
-    <div class="research-area__heading">
-      <span class="research-area__index" aria-hidden="true">03</span>
-      <div>
-        <h2 id="adaptive-verifiable-ai">Statistical Foundations for Adaptive and Verifiable AI</h2>
-        <p class="research-area__tagline">Generalization, knowledge retention, and statistical content provenance</p>
-      </div>
-    </div>
+    <details class="research-topic" name="research-topics">
+      <summary class="research-topic__summary">
+        <h2 id="adaptive-verifiable-ai">
+          <span class="research-topic__icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><path d="M24 6l14 6v10c0 9-5.8 16-14 20-8.2-4-14-11-14-20V12z"></path><path d="M17 24l5 5 10-11"></path><circle cx="17" cy="24" r="1.5"></circle><circle cx="22" cy="29" r="1.5"></circle><circle cx="32" cy="18" r="1.5"></circle></svg></span>
+          <span class="research-topic__copy"><span class="research-topic__index">03</span><span class="research-topic__title">Statistical Foundations for Adaptive and Verifiable AI</span><span class="research-topic__tagline">Generalization, knowledge retention, and statistical content provenance</span></span>
+          <span class="research-topic__toggle" aria-hidden="true"></span>
+        </h2>
+      </summary>
+      <section class="research-area" aria-labelledby="adaptive-verifiable-ai-detail">
+    <button class="research-topic__back" type="button"><span aria-hidden="true">&larr;</span> Back to research areas</button>
+    <header class="research-topic__detail-heading"><span aria-hidden="true">03</span><div><h2 id="adaptive-verifiable-ai-detail">Statistical Foundations for Adaptive and Verifiable AI</h2><p>Generalization, knowledge retention, and statistical content provenance</p></div></header>
     <p class="research-area__question">How can modern learning systems remain understandable and verifiable as models, tasks, and their outputs evolve?</p>
     <div class="research-area__description">
       <p>I am interested in using rigorous statistical tools, such as non-asymptotic theory and optimal testing, to study the full lifecycle of modern learning systems. On the learning side, I investigate why overparameterized neural networks generalize and how continual-learning algorithms balance forward transfer against retention of earlier knowledge. On the verification side, our team formulates LLM watermarking as a statistical testing problem and derives detection rules with explicit efficiency and optimality guarantees.</p>
@@ -126,16 +129,20 @@ author_profile: true
         <small>ICML, 2024</small>
       </li>
     </ul>
-  </section>
+      </section>
+    </details>
 
-  <section class="research-area" aria-labelledby="structure-dynamics">
-    <div class="research-area__heading">
-      <span class="research-area__index" aria-hidden="true">04</span>
-      <div>
-        <h2 id="structure-dynamics">Learning Structure and Dynamics from Complex Data</h2>
-        <p class="research-area__tagline">Constrained geometry, dynamic graphs, and scientific machine learning</p>
-      </div>
-    </div>
+    <details class="research-topic" name="research-topics">
+      <summary class="research-topic__summary">
+        <h2 id="structure-dynamics">
+          <span class="research-topic__icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><circle cx="12" cy="16" r="3"></circle><circle cx="35" cy="12" r="3"></circle><circle cx="38" cy="34" r="3"></circle><circle cx="16" cy="38" r="3"></circle><path d="M15 15l17-2 5 18-18 6-6-18zM18 27c3-6 10-8 16-4"></path><path d="M30 19l5 4-5 3"></path></svg></span>
+          <span class="research-topic__copy"><span class="research-topic__index">04</span><span class="research-topic__title">Learning Structure and Dynamics from Complex Data</span><span class="research-topic__tagline">Constrained geometry, dynamic graphs, and scientific machine learning</span></span>
+          <span class="research-topic__toggle" aria-hidden="true"></span>
+        </h2>
+      </summary>
+      <section class="research-area" aria-labelledby="structure-dynamics-detail">
+    <button class="research-topic__back" type="button"><span aria-hidden="true">&larr;</span> Back to research areas</button>
+    <header class="research-topic__detail-heading"><span aria-hidden="true">04</span><div><h2 id="structure-dynamics-detail">Learning Structure and Dynamics from Complex Data</h2><p>Constrained geometry, dynamic graphs, and scientific machine learning</p></div></header>
     <p class="research-area__question">Can structure recover information that standard data representations appear to lose?</p>
     <div class="research-area__description">
       <p>I develop methods that use geometry, sparsity, and relational dynamics to reveal interactions hidden by nonstandard observations. CARE shows that although compositional measurements obscure absolute scale, sparsity and increasing dimension can restore identifiability: in sufficiently high dimensions, its precision-matrix estimator is minimax optimal and performs as if the latent basis were observed. Related work recovers nonlinear dependence graphs from asynchronous event streams and models out-of-distribution fluid dynamics through disentangled graph ODEs.</p>
@@ -157,6 +164,46 @@ author_profile: true
         <small>ICML, 2024</small>
       </li>
     </ul>
-  </section>
+      </section>
+    </details>
+  </div>
 
 </div>
+
+<script>
+(function () {
+  var grid = document.querySelector('.research-topic-grid');
+  if (!grid) return;
+
+  var topics = Array.prototype.slice.call(grid.querySelectorAll('.research-topic'));
+
+  function syncOpenState() {
+    grid.classList.toggle('has-open-topic', topics.some(function (topic) { return topic.open; }));
+  }
+
+  topics.forEach(function (topic) {
+    var summary = topic.querySelector('.research-topic__summary');
+    var back = topic.querySelector('.research-topic__back');
+
+    topic.addEventListener('toggle', function () {
+      if (topic.open) {
+        topics.forEach(function (other) {
+          if (other !== topic) other.open = false;
+        });
+        grid.classList.add('has-open-topic');
+        window.requestAnimationFrame(function () { back.focus({ preventScroll: true }); });
+      } else {
+        syncOpenState();
+      }
+    });
+
+    back.addEventListener('click', function () {
+      topic.open = false;
+      syncOpenState();
+      window.requestAnimationFrame(function () { summary.focus({ preventScroll: true }); });
+    });
+  });
+
+  syncOpenState();
+}());
+</script>
