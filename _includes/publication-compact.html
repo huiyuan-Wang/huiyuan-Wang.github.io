@@ -1,4 +1,4 @@
-<li class="publication-item">
+<li class="publication-item"{% if post.anchor_id %} id="{{ post.anchor_id }}"{% endif %}>
   <div class="publication-item__title">
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}">{{ post.title }}</a>
@@ -8,7 +8,9 @@
   </div>
   <div class="publication-item__authors">{{ post.authors }}</div>
   <div class="publication-item__venue">
-    {% if post.review_status %}
+    {% if post.status_label %}
+      <span class="publication-badge">{{ post.status_label }}</span>
+    {% elsif post.review_status %}
       <span class="publication-badge publication-badge--review">{{ post.review_status }}</span>
     {% endif %}
     {{ post.publication }}{% if post.year_label %} <span class="publication-status-year">{{ post.year_label }}</span>{% endif %}

@@ -12,8 +12,9 @@ author_profile: true
   </div>
 
   {% assign published_papers = site.publications | where: "status", "published" %}
+  {% assign accepted_papers = site.publications | where: "status", "accepted" %}
   {% assign revision_papers = site.publications | where: "status", "under-revision" %}
-  {% assign listed_papers = published_papers | concat: revision_papers | sort: "date" | reverse %}
+  {% assign listed_papers = published_papers | concat: accepted_papers | concat: revision_papers | sort: "date" | reverse %}
   {% assign publication_years = "2026,2025,2024,2023,2022" | split: "," %}
 
   {% for year in publication_years %}
