@@ -79,7 +79,7 @@ analytics:
 
 # Public visitor map (the widget key is part of the public embed code).
 visitor_map:
-  enabled: true
+  enabled: false
   widget_key: "quxteZYcFJV50OVCUqNHSJzQqB8QQLG8SiBetkuEiNI"
   stats_id: "1c2ip"
 
