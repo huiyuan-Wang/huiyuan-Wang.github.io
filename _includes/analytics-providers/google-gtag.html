@@ -1,0 +1,23 @@
+{% if site.analytics.google.measurement_id %}
+{% assign analytics_hostname = site.url | remove: "https://" | remove: "http://" | split: "/" | first | downcase %}
+<!-- Google Analytics 4: collect only on the configured public hostname. -->
+<script>
+  (function () {
+    if (window.location.hostname.toLowerCase() !== {{ analytics_hostname | jsonify }}) return;
+
+    var measurementId = {{ site.analytics.google.measurement_id | jsonify }};
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', measurementId, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementId);
+    document.head.appendChild(script);
+  })();
+</script>
+{% endif %}

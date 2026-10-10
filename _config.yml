@@ -73,9 +73,15 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google-gtag" # false, "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    measurement_id       : "G-5NHX0GC72P"
+
+# Public visitor map (the widget key is part of the public embed code).
+visitor_map:
+  enabled: true
+  widget_key: "quxteZYcFJV50OVCUqNHSJzQqB8QQLG8SiBetkuEiNI"
+  stats_id: "1c2ip"
 
 
 # Site Author

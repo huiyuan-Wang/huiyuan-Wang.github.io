@@ -1,0 +1,29 @@
+{% if site.visitor_map.widget_key %}
+<section class="home-visitors" aria-labelledby="visitors-title">
+  <div class="home-section-heading">
+    <h2 id="visitors-title">Visitors</h2>
+    <span>Around the world</span>
+  </div>
+  <div class="home-visitors__map">
+    {% if site.visitor_map.enabled %}
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.visitor_map.widget_key | uri_escape }}&amp;cl=ffffff&amp;w=a"></script>
+    <noscript>
+      <a href="https://mapmyvisitors.com/web/{{ site.visitor_map.stats_id | escape }}" title="Visitor map and statistics">
+        <img src="https://mapmyvisitors.com/map.png?d={{ site.visitor_map.widget_key | uri_escape }}&amp;cl=ffffff" alt="World map of website visitors">
+      </a>
+    </noscript>
+    {% else %}
+    <div class="home-visitors__preview">
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+        <circle cx="28" cy="28" r="23" stroke="currentColor" stroke-width="1.5"/>
+        <ellipse cx="28" cy="28" rx="11" ry="23" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M5 28h46M10 14h36M10 42h36" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <p>Live visitor map</p>
+      <small>The map and visit counts appear on the published site. Tracking is disabled in local preview.</small>
+    </div>
+    {% endif %}
+  </div>
+  <a class="home-visitors__link" href="https://mapmyvisitors.com/web/{{ site.visitor_map.stats_id | escape }}" rel="noopener noreferrer" target="_blank">View visitor statistics <span aria-hidden="true">&nearr;</span></a>
+</section>
+{% endif %}
