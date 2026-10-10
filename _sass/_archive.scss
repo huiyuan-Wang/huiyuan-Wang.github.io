@@ -247,6 +247,68 @@
   border-radius: 3px;
 }
 
+.home-visitors {
+  margin-top: 2.4rem;
+}
+
+.home-visitors__map {
+  width: 100%;
+  max-width: 28rem;
+  margin-top: 1rem;
+
+  img,
+  iframe,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+  img {
+    display: block;
+    height: auto;
+  }
+}
+
+.home-visitors__preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 13rem;
+  padding: 1.5rem;
+  color: $gray;
+  text-align: center;
+  background: mix(#fff, $primary-color, 97%);
+
+  svg {
+    color: mix(#fff, $primary-color, 35%);
+  }
+
+  p {
+    margin: 0.7rem 0 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  small {
+    max-width: 20rem;
+    font-size: 0.67rem;
+    line-height: 1.5;
+  }
+}
+
+.home-visitors__link {
+  display: inline-block;
+  margin-top: 0.7rem;
+  color: $primary-color;
+  font-size: 0.72rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .publications-list__intro,
 .talks-list__intro {
   display: flex;

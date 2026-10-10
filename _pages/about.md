@@ -47,4 +47,6 @@ redirect_from:
       {% endfor %}
     </ol>
   </section>
+
+  {% include visitor-map.html %}
 </div>
