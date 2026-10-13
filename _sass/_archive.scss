@@ -535,6 +535,13 @@
   list-style: none;
 }
 
+.service-group__summary {
+  margin: 0 0 1.25rem;
+  color: $text-color;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
 .service-item {
   display: flex;
   align-items: baseline;

@@ -10,17 +10,7 @@ author_profile: true
 
   <section class="service-group" aria-labelledby="peer-review">
     <h2 id="peer-review" class="service-group__title">Peer review</h2>
-    <ul class="service-group__items">
-      <li class="service-item"><div><strong>Algorithmic Learning Theory (ALT)</strong><span>Program Committee Member</span></div><time>2027</time></li>
-      <li class="service-item"><div><strong>ICLR</strong><span>Area Chair</span></div><time>2026</time></li>
-      <li class="service-item"><div><strong>NeurIPS</strong><span>Reviewer</span></div><time>2025, 2026</time></li>
-      <li class="service-item"><div><strong>ICML</strong><span>Reviewer</span></div><time>2026</time></li>
-      <li class="service-item"><div><strong>ICLR</strong><span>Reviewer</span></div><time>2025</time></li>
-      <li class="service-item"><div><strong>Algorithmic Learning Theory (ALT)</strong><span>Reviewer</span></div><time>2023&ndash;2026</time></li>
-      <li class="service-item"><div><strong>The Annals of Applied Statistics (AOAS)</strong><span>Reviewer</span></div><time>2026</time></li>
-      <li class="service-item"><div><strong>Journal of the American Statistical Association (JASA)</strong><span>Reviewer</span></div><time>2023, 2025, 2026</time></li>
-      <li class="service-item"><div><strong>Journal of Computational and Graphical Statistics (JCGS)</strong><span>Reviewer</span></div><time>2022</time></li>
-    </ul>
+    <p class="service-group__summary">I serve as an Area Chair for ICLR (2026) and a program committee member for ALT (2027). I was recognized as a NeurIPS Top Reviewer in 2025 and 2026, and have reviewed for ICML (2026), ICLR (2025), ALT (2023&ndash;2026), The Annals of Applied Statistics (2026), JASA (2023, 2025, 2026), and JCGS (2022).</p>
   </section>
 
   <section class="service-group" aria-labelledby="community-service">
