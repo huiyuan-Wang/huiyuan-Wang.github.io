@@ -1,4 +1,10 @@
 - date: "Oct 2026"
+  label: "Recognition"
+  title: "Top Reviewer at NeurIPS 2026"
+  description: "Honored to be recognized as a Top Reviewer at NeurIPS for the second consecutive year."
+  url: "/service/#peer-review"
+
+- date: "Oct 2026"
   label: "Accepted"
   title: "ANCHOR accepted by The Annals of Applied Statistics"
   description: "Our paper on negative-control-calibrated sensitivity analysis for unmeasured confounding has been accepted for publication in The Annals of Applied Statistics."
