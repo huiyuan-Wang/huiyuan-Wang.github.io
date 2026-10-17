@@ -23,7 +23,17 @@ author_profile: true
       <ol class="publication-year__items">
         {% for post in listed_papers %}
           {% assign paper_year = post.date | date: "%Y" %}
-          {% if paper_year == year %}
+          {% assign has_public_version = false %}
+          {% if post.status == "published" and post.paperurl %}
+            {% assign has_public_version = true %}
+          {% elsif post.status == "accepted" and post.public_listing_authorized %}
+            {% assign has_public_version = true %}
+          {% elsif post.public_source_verified and post.public_source_type == "arxiv" and post.paperurl contains "https://arxiv.org/abs/" %}
+            {% assign has_public_version = true %}
+          {% elsif post.public_source_verified and post.public_source_type == "publisher" and post.paperurl %}
+            {% assign has_public_version = true %}
+          {% endif %}
+          {% if paper_year == year and has_public_version %}
             {% include publication-compact.html %}
           {% endif %}
         {% endfor %}

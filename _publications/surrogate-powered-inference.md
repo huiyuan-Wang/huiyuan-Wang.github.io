@@ -2,11 +2,16 @@
 title: "Surrogate-Powered Inference: Regularization and Adaptivity"
 collection: publications
 status: under-revision
+public_source_verified: true
+public_source_type: arxiv
 review_status: "Moderate Revision"
 year_label: "2026+"
 field: causal-inference
 permalink: /publication/surrogate-powered-inference
-date: 2026-01-02
+# Month-start anchor required by Jekyll; the author supplied mid-Sep only.
+date: 2026-09-01
+revision_month: "2026-09"
+date_precision: month
 venue: "JASA"
 authors: 'Jianmin Chen, <strong>Huiyuan Wang</strong>, Thomas Lumley, Xiaowu Dai, and Yong Chen'
 publication: '<i>Journal of the American Statistical Association: Applications and Case Studies</i>.'

@@ -31,10 +31,6 @@ author_profile: true
         <small>AOAS &middot; Accepted, 2026</small>
       </li>
       <li>
-        <div class="research-paper__body"><a href="/files/distributional-diagnosis-calibration-negative-controls.pdf">Distributional Diagnosis and Calibration with Negative Controls for Outcome-wide Real-world Evidence <span aria-hidden="true">&nearr;</span></a><p>Uses panels of negative control outcomes to diagnose residual bias and calibrate uncertainty across outcome-wide analyses, while operating on summary statistics and wrapping around common causal estimators.</p></div>
-        <small>Manuscript, 2026+</small>
-      </li>
-      <li>
         <div class="research-paper__body"><a href="https://arxiv.org/abs/2512.21826">Surrogate-Powered Inference: Regularization and Adaptivity <span aria-hidden="true">&nearr;</span></a><p>Combines validated labels and imperfect surrogates, using regularization and adaptive multiwave labeling to improve efficiency without sacrificing validity.</p></div>
         <small>Preprint, 2026+</small>
       </li>

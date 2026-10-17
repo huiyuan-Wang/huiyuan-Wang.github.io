@@ -20,7 +20,7 @@ layout: default
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date and page.status != 'accepted' %}<meta itemprop="datePublished" content="{{ page.date | date: "%b %d, %Y" }}">{% endif %}
+    {% if page.date and page.status != 'accepted' and page.status != 'under-revision' %}<meta itemprop="datePublished" content="{{ page.date | date: "%b %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%b %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
@@ -36,6 +36,8 @@ layout: default
         
         {% if page.collection == 'publications' and page.status == 'accepted' %}
           <p><span class="publication-badge">{{ page.status_label | default: "Accepted" }}</span> <i>{{ page.venue }}</i></p>
+        {% elsif page.collection == 'publications' and page.status == 'under-revision' %}
+          <p><span class="publication-badge publication-badge--review">{{ page.review_status }}</span> <i>{{ page.venue }}</i> {{ page.year_label }}</p>
         {% elsif page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
