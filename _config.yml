@@ -129,6 +129,9 @@ include:
   - _pages
   - files
 exclude:
+  - files/cv.pdf
+  - files/cv_huiyuan2412.pdf
+  - files/Resume_hy.pdf
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
