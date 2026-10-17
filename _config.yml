@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Huiyuan Wang (王惠远)"
 title_separator          : "-"
 name                     : &name "Huiyuan Wang"
-description              : &description "I am a postdoc researcher at Perelman School of Medicine, University of Pennsylvania"
+description              : &description "I am an Assistant Professor in the School of Mathematics at Nanjing University."
 url                      : https://huiyuan-Wang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "huiyuan-Wang.github.io"
@@ -88,12 +88,12 @@ visitor_map:
 author:
   name             : "Ph.D. in Statistics"
   avatar           : "huiyuan-avatar-sunset.PNG"
-  bio              : "Research Associate in Biostatistics at the University of Pennsylvania"
-  location         : "Philadelphia, PA"
+  bio              : "Assistant Professor, School of Mathematics, Nanjing University"
+  location         : "Nanjing, China"
   employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=tAmcOpgAAAAJ"
-  email            : "huiyuanw@upenn.edu"
+  email            : "huiyuan.wang@nju.edu.cn"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

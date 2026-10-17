@@ -1,4 +1,9 @@
 - date: "Oct 2026"
+  label: "Appointment"
+  title: "Joined Nanjing University"
+  description: "I have joined the School of Mathematics at Nanjing University as an Assistant Professor."
+
+- date: "Oct 2026"
   label: "Recognition"
   title: "Top Reviewer at NeurIPS 2026"
   description: "Honored to be recognized as a Top Reviewer at NeurIPS for the second consecutive year."
