@@ -158,6 +158,18 @@
   }
 }
 
+.home-intro .home-contact {
+  margin: 0.7rem 0 0;
+  color: $dark-gray;
+  font-size: 0.8rem;
+  line-height: 1.5;
+
+  .home-contact__label {
+    color: $primary-color;
+    font-weight: 500;
+  }
+}
+
 .home-section-heading {
   display: flex;
   align-items: baseline;

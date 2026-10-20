@@ -220,6 +220,19 @@
     white-space: nowrap;
   }
 
+  .author__email {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25em;
+    margin-bottom: 5px;
+    padding: 2px 5px 2px 0;
+    white-space: normal;
+
+    .fa-fw {
+      flex-shrink: 0;
+    }
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

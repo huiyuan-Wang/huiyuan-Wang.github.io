@@ -12,14 +12,14 @@ redirect_from:
   <section class="home-intro" aria-labelledby="home-intro-title">
     <p class="home-intro__eyebrow" id="home-intro-title">Assistant Professor &middot; School of Mathematics &middot; Nanjing University</p>
     <p class="home-intro__lead">I develop statistical methods for reliable learning and inference when data are biased, imperfect, distributed, or structurally complex.</p>
-    <p>My research spans causal inference and real-world evidence, distributed inference, statistical foundations for adaptive and verifiable AI, and learning from structured data. I am also interested in active learning, retrieval-augmented systems, benchmarking and evaluation of large language models, continual learning, and learning systems designed to avoid shortcut solutions.</p>
+    <p>I welcome research collaborations and inquiries from prospective students interested in causal inference and real-world evidence, distributed inference, statistical foundations for adaptive and verifiable AI, and learning from structured data. If you are interested in working together, please get in touch.</p>
+    <p class="home-contact"><span class="home-contact__label">Contact me:</span> {{ site.author.email | replace: '.', ' dot ' | replace: '@', ' at ' }}</p>
     <nav class="home-links" aria-label="Profile links">
       <a href="/research/">Research <span aria-hidden="true">&rarr;</span></a>
       <a href="/publications/">Publications <span aria-hidden="true">&rarr;</span></a>
       <a href="/files/cv_huiyuan.pdf">CV (PDF) <span aria-hidden="true">&nearr;</span></a>
       <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">&nearr;</span></a>
       <a href="https://www.mathgenealogy.org/id.php?id=326702">Mathematics Genealogy Project <span aria-hidden="true">&nearr;</span></a>
-      <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">&nearr;</span></a>
     </nav>
   </section>
 
