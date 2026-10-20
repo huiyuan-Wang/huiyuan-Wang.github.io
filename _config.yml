@@ -86,6 +86,7 @@ visitor_map:
 
 # Site Author
 author:
+  show_links       : false
   name             : "Ph.D. in Statistics"
   avatar           : "huiyuan-avatar-sunset.PNG"
   bio              : "Assistant Professor, School of Mathematics, Nanjing University"
