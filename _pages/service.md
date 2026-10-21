@@ -10,7 +10,7 @@ author_profile: true
 
   <section class="service-group" aria-labelledby="peer-review">
     <h2 id="peer-review" class="service-group__title">Peer review</h2>
-    <p class="service-group__summary">I serve as an Area Chair for ICLR (2026) and a program committee member for ALT (2027). I was recognized as a NeurIPS Top Reviewer in 2025 and 2026, and have reviewed for ICML (2026), ICLR (2025), ALT (2023&ndash;2026), The Annals of Applied Statistics (2026), JASA (2023, 2025, 2026), and JCGS (2022).</p>
+    <p class="service-group__summary">I serve as an Area Chair for ICML (2027) and ICLR (2027), and as a program committee member for ALT (2027). I was recognized as a NeurIPS Top Reviewer in 2025 and 2026, and have reviewed for ICML (2026), ICLR (2025), ALT (2023&ndash;2026), The Annals of Applied Statistics (2026), JASA (2023, 2025, 2026), and JCGS (2022).</p>
   </section>
 
   <section class="service-group" aria-labelledby="community-service">
