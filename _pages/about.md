@@ -14,6 +14,7 @@ redirect_from:
     <p class="home-intro__lead">I develop statistical methods for reliable learning and inference when data are biased, imperfect, distributed, or structurally complex.</p>
     <p>I welcome research collaborations and inquiries from prospective students interested in causal inference and real-world evidence, distributed inference, statistical foundations for adaptive and verifiable AI, and learning from structured data. If you are interested in working together, please get in touch.</p>
     <p class="home-contact"><span class="home-contact__label">Contact me:</span> {{ site.author.email | replace: '.', ' dot ' | replace: '@', ' at ' }}</p>
+    <p class="home-contact"><span class="home-contact__label">Office:</span> Room 115A, West Building (西大楼)</p>
     <nav class="home-links" aria-label="Profile links">
       <a href="/research/">Research <span aria-hidden="true">&rarr;</span></a>
       <a href="/publications/">Publications <span aria-hidden="true">&rarr;</span></a>
